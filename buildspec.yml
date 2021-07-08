@@ -6,10 +6,10 @@ phases:
   pre_build:
     commands:
     - echo In the pre_build phase...
-    - mvn clean spring-boot:run
   build:
     commands:
     - echo Build started on `date`
+    - mvn clean spring-boot:run
   post_build:
     commands:
     - echo Build completed on `date`
